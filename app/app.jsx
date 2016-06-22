@@ -15,6 +15,9 @@ var Circles = require('Circles');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+//require app.css
+require('style!css!sass!applicationStyles')
+
 //routes
 ReactDOM.render(
     <Router history={hashHistory}>

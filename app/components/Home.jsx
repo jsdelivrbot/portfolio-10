@@ -8,7 +8,7 @@ var Home = React.createClass({
 
   render: function() {
     return (
-      <div>
+      <div className="row">
         <h3>Selected Projects</h3>
         <Carousel>
           <Link to='portfolio'><h5>Portfolio</h5><img className="text-center" src={"img/eeyore.jpeg"}/></Link>

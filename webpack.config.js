@@ -30,7 +30,8 @@ module.exports = {
         Travelbug: 'app/components/Travelbug.jsx',
         Circles: 'app/components/Circles.jsx',
         Weather: 'app/components/Weather.jsx',
-        PathHop: 'app/components/PathHop.jsx'
+        PathHop: 'app/components/PathHop.jsx',
+        applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -43,7 +44,7 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
-      }
+      },
     ]
   },
   devtool: 'cheap-module-eval-source-map'

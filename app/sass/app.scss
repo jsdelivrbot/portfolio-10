@@ -1,0 +1,51 @@
+@import 'body.scss';
+
+.header{
+    max-width: 100%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.picture {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%
+}
+
+.name {
+    margin-bottom: 3rem;
+}
+
+.picture {
+    margin-bottom: 3rem;
+}
+
+.heading {
+    margin-bottom: 2rem;
+}
+
+.skills, .projects {
+    margin-bottom: 5rem;
+}
+
+.skillList {
+    list-style-type: none;
+}
+
+.icon {
+    font-size: 12rem;
+}
+
+.icon li {
+    text-align: center;
+}
+
+.projectList {
+    clear: both;
+}
+
+.inline-list span {
+    display: block;
+}
