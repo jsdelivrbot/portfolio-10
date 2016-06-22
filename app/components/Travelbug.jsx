@@ -4,7 +4,7 @@ var Nav = require('Nav');
 var Travelbug = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className="travelbug">
         <Nav />
 
         <div className="row">

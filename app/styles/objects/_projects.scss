@@ -1,0 +1,22 @@
+.title-section{
+  h4 {
+    color: $title;
+  }
+}
+
+.info-section{
+  .info-title{
+    color: $info-title;
+    display: inline;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.laravel {
+  margin-right: 10px;
+}
