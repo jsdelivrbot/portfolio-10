@@ -4,7 +4,7 @@ var Nav = require('Nav');
 var Circles = React.createClass({
   render: function () {
     return (
-      <div className="Circles">
+      <div className="circles">
         <Nav />
 
         <div className="row">
