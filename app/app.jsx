@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+var {Route, Router, IndexRoute, useRouterHistory} = require('react-router');
+import { createHashHistory } from 'history';
 var Main = require('Main');
 var RouteHandler = require('RouteHandler');
 var Home = require('Home');
@@ -19,8 +20,11 @@ $(document).foundation();
 require('style!css!sass!applicationStyles')
 
 //routes
+
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={appHistory} onUpdate={() => window.scrollTo(0, 0)}>
         <Route path="/" component={Main}>
           <IndexRoute component={RouteHandler}/>
         </Route>
