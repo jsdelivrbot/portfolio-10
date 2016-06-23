@@ -5,7 +5,7 @@ var {Route, Router, IndexRoute, browserHistory} = require('react-router');
 var Main = require('Main');
 var RouteHandler = require('RouteHandler');
 var Home = require('Home');
-var Portfolio = require('Portfolio');
+// var Portfolio = require('Portfolio');
 var Travelbug = require('Travelbug');
 var PathHop = require('PathHop');
 var Weather = require('Weather');
@@ -23,12 +23,12 @@ require('style!css!sass!applicationStyles')
 
 // const appHistory = useRouterHistory(createBrowserHistory)({ queryKey: false })
 
+//browerserHistory replaced hashHistory and deprecated functions
 ReactDOM.render(
     <Router history={browserHistory}>
         <Route path="/" component={Main}>
           <IndexRoute component={RouteHandler}/>
         </Route>
-        <Route path="portfolio" component={Portfolio}></Route>
         <Route path="travelbug" component={Travelbug}></Route>
         <Route path="pathhop" component={PathHop}></Route>
         <Route path="weather" component={Weather}></Route>
