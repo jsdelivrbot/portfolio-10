@@ -15,6 +15,31 @@
   top: 0;
   left: 0; }
 
+.project-card-image-overlay{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.overlay-title {
+  color: #4e5255;
+  transition: translateY(-10px);
+  background: #fff;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  font-size: .9em;
+  letter-spacing: .5px;
+  text-transform: lowercase;
+  margin-bottom: 11rem;
+  h5 {
+    padding-top: 4rem;
+  }
+}
+
 .overlay-fade-in p {
   letter-spacing: 0.15em;
   color: #f4f4f4;
@@ -25,7 +50,7 @@
   transition: all 0.2s linear; }
 .overlay-fade-in .image-overlay-content {
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  // background-color: rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease-in-out; }
 .overlay-fade-in h2 {
   color: #f2f2f2;

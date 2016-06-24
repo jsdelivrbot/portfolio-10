@@ -17,7 +17,9 @@ var Home = React.createClass({
               <Link to='travelbug'><h5 className="name">Travelbug</h5>
                 <div className="image-wrapper overlay-fade-in">
                   <img className="text-center" src={"img/travelbug.jpg"}/>
-                    <div className="image-overlay-content"><h5>travelbug</h5></div>
+                    <div className="image-overlay-content project-card-image-overlay">
+                      <div className="overlay-title"><h5>travelbug</h5></div>  
+                    </div>
                 </div>
               </Link>
               <Link to='pathhop'><h5 className="name">pathHop</h5><img className="text-center" src={"img/pathHop.jpg"}/></Link>
