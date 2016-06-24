@@ -18,13 +18,34 @@ var Home = React.createClass({
                 <div className="image-wrapper overlay-fade-in">
                   <img className="text-center" src={"img/travelbug.jpg"}/>
                     <div className="image-overlay-content project-card-image-overlay">
-                      <div className="overlay-title"><h5>travelbug</h5></div>  
+                      <div className="overlay-title"><h5>travelbug</h5></div>
                     </div>
                 </div>
               </Link>
-              <Link to='pathhop'><h5 className="name">pathHop</h5><img className="text-center" src={"img/pathHop.jpg"}/></Link>
-              <Link to='weather'><h5 className="name">React Weather</h5><img className="text-center" src={"img/reactWeather.jpg"}/></Link>
-              <Link to='circles'><h5 className="name">Circles and Squares of Doom</h5><img className="text-center" src={"img/circles.jpg"}/></Link>
+              <Link to='pathhop'><h5 className="name">pathHop</h5>
+                <div className="image-wrapper overlay-fade-in">
+                  <img className="text-center" src={"img/pathHop.jpg"}/>
+                    <div className="image-overlay-content project-card-image-overlay">
+                      <div className="overlay-title"><h5>pathHop</h5></div>
+                    </div>
+                </div>
+              </Link>
+              <Link to='weather'><h5 className="name">React Weather</h5>
+                <div className="image-wrapper overlay-fade-in">
+                  <img className="text-center" src={"img/reactWeather.jpg"}/>
+                    <div className="image-overlay-content project-card-image-overlay">
+                      <div className="overlay-title"><h5>React Weather</h5></div>
+                    </div>
+                </div>
+              </Link>
+              <Link to='circles'><h5 className="name">Circles and Squares of Doom</h5>
+                <div className="image-wrapper overlay-fade-in">
+                  <img className="text-center" src={"img/circles.jpg"}/>
+                    <div className="image-overlay-content project-card-image-overlay">
+                      <div className="overlay-title"><h5>flames of doom</h5></div>
+                    </div>
+                </div>
+              </Link>
           </div>
         </div>
       </div>
